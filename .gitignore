@@ -1,0 +1,29 @@
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+out/
+
+# Java specific files
+target/
+*.class
+
+# Logs
+logs/
+*.log
+
+# Maven
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+**/target/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Docker
+docker-compose.override.yml
+docker-compose.debug.yml
+docker-compose.test.yml
+*.env
